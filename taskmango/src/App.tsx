@@ -41,7 +41,14 @@ export default function App() {
       <h1>🥭 TaskMango</h1>
       <p className="tagline">Small tasks. Juicy productivity.</p>
       <AddTaskForm onAdd={addTask} />
-      <TaskFilter current={filter} onChange={setFilter} />
+      <TaskFilter
+        current={filter}
+        onChange={setFilter}
+        counts={(() => {
+          const completed = tasks.filter((t) => t.done).length;
+          return { all: tasks.length, active: tasks.length - completed, completed };
+        })()}
+      />
       <TaskList tasks={visibleTasks} onToggle={toggleTask} onDelete={deleteTask} />
     </main>
   );
