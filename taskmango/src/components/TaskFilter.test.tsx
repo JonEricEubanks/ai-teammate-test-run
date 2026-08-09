@@ -20,8 +20,17 @@ describe('TaskFilter', () => {
     expect(onChange).toHaveBeenCalledWith('active');
   });
 
-  it('counts are computed from the full task list (zero state)', () => {
+  it('shows zero-count labels clearly when a filter has no tasks', () => {
+    render(<TaskFilter current="all" onChange={() => {}} counts={{ all: 2, active: 0, completed: 2 }} />);
+    expect(screen.getByRole('button', { name: /all \(2\)/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /active \(0\)/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /completed \(2\)/i })).toBeInTheDocument();
+  });
+
+  it('shows zero counts for all filters when there are no tasks', () => {
     render(<TaskFilter current="all" onChange={() => {}} counts={{ all: 0, active: 0, completed: 0 }} />);
     expect(screen.getByRole('button', { name: /all \(0\)/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /active \(0\)/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /completed \(0\)/i })).toBeInTheDocument();
   });
 });
