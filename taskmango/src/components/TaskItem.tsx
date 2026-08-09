@@ -18,7 +18,7 @@ export function TaskItem({ task, onToggle, onDelete }: Props) {
           Do NOT fix this by hand before Module 04;
           CodeQL + Copilot Autofix will handle it.
         */}
-        <span dangerouslySetInnerHTML={{ __html: task.text }} />
+        <span>{task.text}</span>
       </label>
       <button className="delete" onClick={onDelete} aria-label="Delete task">
         ✕
