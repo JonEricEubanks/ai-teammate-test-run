@@ -27,7 +27,7 @@
   </ul>
 
   <p class="hero-cta">
-    <a class="btn btn-ghost" href="https://github.com/JonEricEubanks/ai-teammate-101">:globe: GitHub</a>
+    <a class="btn btn-ghost" href="https://github.com/JonEricEubanks/ai-teammate-test-run">:globe: GitHub</a>
     <a class="btn btn-primary" href="#/">:play: Get Started</a>
   </p>
 </div>
