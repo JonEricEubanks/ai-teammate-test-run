@@ -1,4 +1,4 @@
-# 00 · Environment Setup
+﻿# 00 ┬╖ Environment Setup
 
 **Time: ~15 minutes**
 
@@ -15,7 +15,7 @@ The Coding Agent is available on these plans:
 | Copilot Pro / Pro+ | **Yes** | Includes monthly agent allowances |
 | Copilot Business / Enterprise | **Yes** | Your org admin may need to enable the policy |
 | Copilot Free | Limited | See the fallback below |
-| **Verified students** | **Free Pro** | Via [GitHub Education](https://education.github.com) — if you're a student, claim this first |
+| **Verified students** | **Free Pro** | Via [GitHub Education](https://education.github.com) ΓÇö if you're a student, claim this first |
 
 **How to check:** go to [github.com/settings/copilot](https://github.com/settings/copilot) and look at your plan.
 
@@ -24,7 +24,7 @@ The Coding Agent is available on these plans:
 ## 2. Create your own copy of this repo
 
 1. At the top of the template repository, click **Use this template  Create a new repository**.
-2. Name it anything you like (e.g. `my-ai-teammate-workshop`).
+2. Name it `my-ai-teammate-workshop`.
 3. Choose **Public**. *(Required: GitHub's code scanning features used in Module 04 are free on public repos. On private repos they require a GitHub Advanced Security license.)*
 4. Click **Create repository**.
 
@@ -32,14 +32,14 @@ From here on, **do everything in your copy**, not the original template.
 
 ## 3. Meet the sample app
 
-Your copy contains a folder called [`taskmango/`](../taskmango) — a small React + TypeScript task tracker. It runs entirely in the browser (no backend, no database), stores tasks in `localStorage`, and — by design — ships with:
+Your copy contains a folder called [`taskmango/`](../taskmango) ΓÇö a small React + TypeScript task tracker. It runs entirely in the browser (no backend, no database), stores tasks in `localStorage`, and ΓÇö by design ΓÇö ships with:
 
 -  A couple of real bugs
 -  Incomplete test coverage
 -  One genuine security vulnerability (you'll fix it with AI in Module 04)
 -  A [seeded issue backlog](../taskmango/docs/seeded-issues.md) of tasks ready to delegate
 
-You don't need to run TaskMango locally for this workshop — but if you want to see it live:
+You don't need to run TaskMango locally for this workshop ΓÇö but if you want to see it live:
 
 ```bash
 cd taskmango
@@ -47,13 +47,15 @@ npm install
 npm run dev
 ```
 
-## 4. (Optional) Publish your copy as a GitHub Pages site
+## 4. Publish your copy as a GitHub Pages site
 
 This template is a [Docsify](https://docsify.js.org) site. To read it as a website instead of raw Markdown:
 
-1. In your repo, go to **Settings  Pages**.
+1. In your repo, go to **Settings &rarr; Pages**.
 2. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, and save.
-3. Wait a minute, then visit `https://<your-username>.github.io/<your-repo-name>/`.
+3. Wait a minute, then visit `https://<your-username>.github.io/my-ai-teammate-workshop/`.
+
+> **Already did this in the README?** Skip ahead ΓÇö you're all set.
 
 ## 5. Sanity check
 
@@ -61,8 +63,9 @@ This template is a [Docsify](https://docsify.js.org) site. To read it as a websi
 
 - [ ] You've confirmed your Copilot plan (or chosen the Free-plan path)
 - [ ] You have your own public copy of this repository
+- [ ] Your copy is live on GitHub Pages (Settings &rarr; Pages)
 - [ ] You've skimmed [`taskmango/docs/seeded-issues.md`](../taskmango/docs/seeded-issues.md)
 
 ---
 
-**Next ** [Module 01: Meet Your AI Teammate](../modules/01-meet-your-ai-teammate/README.md)
+**Next:** [Module 01: Meet Your AI Teammate](../modules/01-meet-your-ai-teammate/README.md)
