@@ -1,4 +1,4 @@
-#  Capstone: Run the Loop Solo
+# 🏆 Capstone: Run the Loop Solo
 
 **Time: ~45 minutes**
 
@@ -44,13 +44,21 @@ For my real projects, I will delegate ______ but never ______.
 
 This capstone is deliberately portfolio-shaped. Your copy of the repo — with its PR threads, review comments, session logs, and retro — is something you can link from a resume, a blog post, or a talk proposal. "I managed an AI teammate through a full sprint" is a better story than "I completed a tutorial."
 
->  **Facilitators:** the retro + two merged PRs are the completion evidence if you're running this as a graded workshop.
+Hit 6/6 and the progress bot generates a personalized, downloadable certificate right into your repo (`CERTIFICATE.svg`) and embeds it in your scorecard issue:
+
+<details class="shot"><summary>What you'll earn — the certificate the bot generates at 6/6</summary>
+<img class="shot" src="/ai-teammate-101/assets/shots/certificate-sample.png" alt="A personalized AI Teammate 101 certificate of completion with the learner's name, repo, and date" />
+</details>
+
+Want to see a finished run end-to-end before you start? Here's a complete example: the [scorecard at 6/6](https://github.com/JonEricEubanks/ai-teammate-test-run/issues/1), the [generated certificate](https://github.com/JonEricEubanks/ai-teammate-test-run/blob/main/CERTIFICATE.svg), and the [retro](https://github.com/JonEricEubanks/ai-teammate-test-run/blob/main/RETRO.md) — all in one repo.
+
+> 📣 **Facilitators:** the retro + two merged PRs are the completion evidence if you're running this as a graded workshop.
 
 ---
 
-##  You're done
+## 🎉 You're done
 
-You've done the full loop: spec  delegate  observe  review  iterate  merge  reflect. Most working developers haven't. Take TaskMango's remaining backlog issues if you want reps — or better, point everything you learned at a project you actually care about.
+You've done the full loop: spec → delegate → observe → review → iterate → merge → reflect. Most working developers haven't. Take TaskMango's remaining backlog issues if you want reps — or better, point everything you learned at a project you actually care about.
 
 **Where next:**
 
