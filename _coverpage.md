@@ -28,6 +28,6 @@
 
   <p class="hero-cta">
     <a class="btn btn-ghost" href="https://github.com/JonEricEubanks/ai-teammate-test-run">:globe: GitHub</a>
-    <a class="btn btn-primary" href="#/">:play: Get Started</a>
+    <a class="btn btn-primary" href="#/setup/00-environment">:play: Get Started</a>
   </p>
 </div>
